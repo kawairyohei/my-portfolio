@@ -1,0 +1,104 @@
+header {
+  width: 100%;
+  padding: 15px 0;
+  margin: 0 auto;
+  text-align: center;
+  background-color: aqua;
+}
+header .headline {
+  font-size: 32px;
+}
+.nav-list {
+  text-align: center;
+  padding: 10px 0;
+  margin: 0 auto;
+}
+.nav-list-item {
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px;
+}
+
+.content {
+  width: 100%;
+  height: 1500px;
+}
+/*ここからフォントの指定*/
+.name {
+  font-size: 35px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.name-kanji {
+  font-size: 35px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.university {
+  font-size: 40px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.univ-kanji {
+  font-size: 35px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.hobbies {
+  font-size: 40px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.fps-game {
+  font-size: 35px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.profile-char {
+  font-size: 40px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.alphabet-name {
+  font-size: 20px;
+}
+/*フォントの指定ここまで*/
+
+/*"NAME","UNIVERSITY","HOBBIES"が中央で左揃えになるように*/
+/*contentの全ての要素を操作*/
+.whole {
+  display: flex;
+  flex-direction: column;
+  align-content: space-around;
+}
+/*写真のサイズを設定*/
+img.ryohei-photo {
+  width: 250px;
+  height: 500px;
+}
+/*devide "name" and "name-kanji", then arrange them in a row.*/
+.name-group {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+}
+.name-kanji {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.univ-group {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+}
+.univ-kanji {
+  display: flex;
+  flex-direction: column-reverse;
+}
+.alphabet-univ {
+  font-size: 20px;
+}
+.hobbies-group {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+}
+.footer {
+  background-color: aquamarine;
+  color: white;
+  height: 90px;
+}
